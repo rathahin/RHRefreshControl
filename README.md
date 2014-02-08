@@ -1,6 +1,10 @@
-# RHRefreshControl
+<p align="center" >
+  <img src="https://raw.github.com/rathahin/RHRefreshControl/assets/title.png" alt="RHRefreshControl" title="RHRefreshControl">
+</p>
 
+<div style="background-image:url('https://raw.github.com/rathahin/RHRefreshControl/assets/title.png')">
 RHRefreshControl is just another simple custom RefreshControl which allow you to customize the appearance and behavior of RefreshControl for your app. With this simple library, you would save few hours to write code to implement with UIScrollView.
+</div>
 
 ## Getting Started
 
