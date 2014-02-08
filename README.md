@@ -16,12 +16,36 @@ RHRefreshControl is just another simple custom RefreshControl which allow you to
 ## Initiate
 
 ```objective-c
-RHRefreshControl *refreshControl = [[RHRefreshControl alloc] initWithConfiguration:refreshConfiguration];
+
+RHRefreshControl *refreshControl = [[RHRefreshControl alloc]
+                                    initWithConfiguration:refreshConfiguration];
+
 ```
 
 ## Configuration
 
-* // TODO
+* `Preset Style` Configuration
+
+```objective-c
+
+RHRefreshControlConfiguration *refreshConfiguration = [[RHRefreshControlConfiguration alloc] init];
+
+refreshConfiguration.refreshView = RHRefreshViewStylePinterest;
+
+```
+
+* `Your own view` Configuration
+
+```objective-c
+
+CutomRefreshView *customRefreshView = [[CutomRefreshView alloc]
+                                       initWithFrame:CGRectMake(0, 0, 320, 60)];
+
+RHRefreshControlConfiguration *refreshConfiguration = [[RHRefreshControlConfiguration alloc] init];
+
+refreshConfiguration.refreshView = customRefreshView;
+
+```
 
 ## Custom Refresh View
 
