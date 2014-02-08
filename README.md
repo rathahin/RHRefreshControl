@@ -15,7 +15,9 @@ RHRefreshControl is just another simple custom RefreshControl which allow you to
 
 ## Initiate
 
-* // TODO
+```objective-c
+RHRefreshControl *refreshControl = [[RHRefreshControl alloc] initWithConfiguration:refreshConfiguration];
+```
 
 ## Configuration
 
