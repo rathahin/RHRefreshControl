@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BA35E894189E11BC00CEFE93 /* RHRefreshControlViewPinterest.m in Sources */ = {isa = PBXBuildFile; fileRef = BA35E893189E11BC00CEFE93 /* RHRefreshControlViewPinterest.m */; };
 		BABACD69189FE2120062BFC0 /* CutomRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = BABACD68189FE2120062BFC0 /* CutomRefreshView.m */; };
+		BABD6EF818AA7C3300447E6C /* RHRefreshControlViewSequenceImages.m in Sources */ = {isa = PBXBuildFile; fileRef = BABD6EF718AA7C3300447E6C /* RHRefreshControlViewSequenceImages.m */; };
 		BAE261B5189BDF3E00211B3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE261B4189BDF3E00211B3D /* Foundation.framework */; };
 		BAE261B7189BDF3E00211B3D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE261B6189BDF3E00211B3D /* CoreGraphics.framework */; };
 		BAE261B9189BDF3E00211B3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE261B8189BDF3E00211B3D /* UIKit.framework */; };
@@ -43,6 +44,8 @@
 		BA35E893189E11BC00CEFE93 /* RHRefreshControlViewPinterest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHRefreshControlViewPinterest.m; sourceTree = "<group>"; };
 		BABACD67189FE2120062BFC0 /* CutomRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CutomRefreshView.h; sourceTree = "<group>"; };
 		BABACD68189FE2120062BFC0 /* CutomRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CutomRefreshView.m; sourceTree = "<group>"; };
+		BABD6EF618AA7C3300447E6C /* RHRefreshControlViewSequenceImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHRefreshControlViewSequenceImages.h; sourceTree = "<group>"; };
+		BABD6EF718AA7C3300447E6C /* RHRefreshControlViewSequenceImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHRefreshControlViewSequenceImages.m; sourceTree = "<group>"; };
 		BAE261B1189BDF3E00211B3D /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE261B4189BDF3E00211B3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BAE261B6189BDF3E00211B3D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -100,6 +103,8 @@
 			children = (
 				BA35E892189E11BC00CEFE93 /* RHRefreshControlViewPinterest.h */,
 				BA35E893189E11BC00CEFE93 /* RHRefreshControlViewPinterest.m */,
+				BABD6EF618AA7C3300447E6C /* RHRefreshControlViewSequenceImages.h */,
+				BABD6EF718AA7C3300447E6C /* RHRefreshControlViewSequenceImages.m */,
 			);
 			name = RHRefreshControlViewPinterest;
 			path = RHRefreshControlViewStyle;
@@ -306,6 +311,7 @@
 				BAE261C5189BDF3E00211B3D /* AppDelegate.m in Sources */,
 				BAE5DFC1189DF82C00375468 /* RHAnimator.m in Sources */,
 				BA35E894189E11BC00CEFE93 /* RHRefreshControlViewPinterest.m in Sources */,
+				BABD6EF818AA7C3300447E6C /* RHRefreshControlViewSequenceImages.m in Sources */,
 				BAE261C1189BDF3E00211B3D /* main.m in Sources */,
 				BAF9246C189C877300A4A1EE /* RHRefreshControl.m in Sources */,
 				BABACD69189FE2120062BFC0 /* CutomRefreshView.m in Sources */,
