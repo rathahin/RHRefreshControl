@@ -21,14 +21,13 @@
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+  [super viewDidLoad];
   CutomRefreshView *customRefreshView = [[CutomRefreshView alloc] initWithFrame:CGRectMake(0, 0, 320, 60)];
   
   RHRefreshControlConfiguration *refreshConfiguration = [[RHRefreshControlConfiguration alloc] init];
   refreshConfiguration.refreshView = RHRefreshViewStylePinterest;
-//  refreshConfiguration.minimumForStart = @0;
-//  refreshConfiguration.maximumForPull = @120;
+  //  refreshConfiguration.minimumForStart = @0;
+  //  refreshConfiguration.maximumForPull = @120;
   self.refreshControl = [[RHRefreshControl alloc] initWithConfiguration:refreshConfiguration];
   self.refreshControl.delegate = self;
   [self.refreshControl attachToScrollView:self.tableView];
@@ -43,8 +42,8 @@
 
 - (void)didReceiveMemoryWarning
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+  [super didReceiveMemoryWarning];
+  // Dispose of any resources that can be recreated.
 }
 
 #pragma mark - TableView Datasource

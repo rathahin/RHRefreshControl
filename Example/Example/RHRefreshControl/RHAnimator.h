@@ -19,9 +19,9 @@ typedef CGFloat (*ViewEasingFunctionPointerType)(CGFloat);
 
 @end
 
-CGFloat ElasticEaseIn(CGFloat p);
-CGFloat ElasticEaseOut(CGFloat p);
-CGFloat ElasticEaseInOut(CGFloat p);
-CGFloat BackEaseIn(CGFloat p);
-CGFloat BackEaseOut(CGFloat p);
+CGFloat RHElasticEaseIn(CGFloat p);
+CGFloat RHElasticEaseOut(CGFloat p);
+CGFloat RHElasticEaseInOut(CGFloat p);
+CGFloat RHBackEaseIn(CGFloat p);
+CGFloat RHBackEaseOut(CGFloat p);
 

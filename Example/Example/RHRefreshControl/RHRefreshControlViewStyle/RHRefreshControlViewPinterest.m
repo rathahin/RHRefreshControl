@@ -108,7 +108,7 @@
   CATransform3D fromMatrix = CATransform3DMakeScale(0.0, 0.0, 0.0);
   CATransform3D toMatrix = CATransform3DMakeScale(1.0f, 1.0f, 1.0f);
   CAKeyframeAnimation *animation = [RHAnimator animationWithCATransform3DForKeyPath:@"transform"
-                                                                     easingFunction:ElasticEaseOut
+                                                                     easingFunction:RHElasticEaseOut
                                                                          fromMatrix:fromMatrix
                                                                            toMatrix:toMatrix];
   animation.duration = 1.0f;
