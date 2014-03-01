@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BA35E894189E11BC00CEFE93 /* RHRefreshControlViewPinterest.m in Sources */ = {isa = PBXBuildFile; fileRef = BA35E893189E11BC00CEFE93 /* RHRefreshControlViewPinterest.m */; };
+		BA73C9BC18C201D800C811CD /* RHAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = BA73C9B118C201D800C811CD /* RHAnimator.m */; };
+		BA73C9BD18C201D800C811CD /* RHRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BA73C9B318C201D800C811CD /* RHRefreshControl.m */; };
+		BA73C9BE18C201D800C811CD /* RHRefreshControlConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = BA73C9B518C201D800C811CD /* RHRefreshControlConfiguration.m */; };
+		BA73C9BF18C201D800C811CD /* RHRefreshControlViewPinterest.m in Sources */ = {isa = PBXBuildFile; fileRef = BA73C9B918C201D800C811CD /* RHRefreshControlViewPinterest.m */; };
+		BA73C9C018C201D800C811CD /* RHRefreshControlViewSequenceImages.m in Sources */ = {isa = PBXBuildFile; fileRef = BA73C9BB18C201D800C811CD /* RHRefreshControlViewSequenceImages.m */; };
 		BABACD69189FE2120062BFC0 /* CutomRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = BABACD68189FE2120062BFC0 /* CutomRefreshView.m */; };
-		BABD6EF818AA7C3300447E6C /* RHRefreshControlViewSequenceImages.m in Sources */ = {isa = PBXBuildFile; fileRef = BABD6EF718AA7C3300447E6C /* RHRefreshControlViewSequenceImages.m */; };
 		BAE261B5189BDF3E00211B3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE261B4189BDF3E00211B3D /* Foundation.framework */; };
 		BAE261B7189BDF3E00211B3D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE261B6189BDF3E00211B3D /* CoreGraphics.framework */; };
 		BAE261B9189BDF3E00211B3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE261B8189BDF3E00211B3D /* UIKit.framework */; };
@@ -24,9 +27,6 @@
 		BAE261DE189BDF3E00211B3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAE261DC189BDF3E00211B3D /* InfoPlist.strings */; };
 		BAE261E0189BDF3E00211B3D /* ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE261DF189BDF3E00211B3D /* ExampleTests.m */; };
 		BAE261EC189BDFA500211B3D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAE261EB189BDFA500211B3D /* ViewController.xib */; };
-		BAE5DFC1189DF82C00375468 /* RHAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE5DFC0189DF82C00375468 /* RHAnimator.m */; };
-		BAE5DFC5189DFC3900375468 /* RHRefreshControlConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE5DFC4189DFC3900375468 /* RHRefreshControlConfiguration.m */; };
-		BAF9246C189C877300A4A1EE /* RHRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF9246B189C877300A4A1EE /* RHRefreshControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,12 +40,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BA35E892189E11BC00CEFE93 /* RHRefreshControlViewPinterest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHRefreshControlViewPinterest.h; sourceTree = "<group>"; };
-		BA35E893189E11BC00CEFE93 /* RHRefreshControlViewPinterest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHRefreshControlViewPinterest.m; sourceTree = "<group>"; };
+		BA73C9B018C201D800C811CD /* RHAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHAnimator.h; sourceTree = "<group>"; };
+		BA73C9B118C201D800C811CD /* RHAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHAnimator.m; sourceTree = "<group>"; };
+		BA73C9B218C201D800C811CD /* RHRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHRefreshControl.h; sourceTree = "<group>"; };
+		BA73C9B318C201D800C811CD /* RHRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHRefreshControl.m; sourceTree = "<group>"; };
+		BA73C9B418C201D800C811CD /* RHRefreshControlConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHRefreshControlConfiguration.h; sourceTree = "<group>"; };
+		BA73C9B518C201D800C811CD /* RHRefreshControlConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHRefreshControlConfiguration.m; sourceTree = "<group>"; };
+		BA73C9B618C201D800C811CD /* RHRefreshControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHRefreshControlView.h; sourceTree = "<group>"; };
+		BA73C9B818C201D800C811CD /* RHRefreshControlViewPinterest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHRefreshControlViewPinterest.h; sourceTree = "<group>"; };
+		BA73C9B918C201D800C811CD /* RHRefreshControlViewPinterest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHRefreshControlViewPinterest.m; sourceTree = "<group>"; };
+		BA73C9BA18C201D800C811CD /* RHRefreshControlViewSequenceImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHRefreshControlViewSequenceImages.h; sourceTree = "<group>"; };
+		BA73C9BB18C201D800C811CD /* RHRefreshControlViewSequenceImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHRefreshControlViewSequenceImages.m; sourceTree = "<group>"; };
 		BABACD67189FE2120062BFC0 /* CutomRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CutomRefreshView.h; sourceTree = "<group>"; };
 		BABACD68189FE2120062BFC0 /* CutomRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CutomRefreshView.m; sourceTree = "<group>"; };
-		BABD6EF618AA7C3300447E6C /* RHRefreshControlViewSequenceImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHRefreshControlViewSequenceImages.h; sourceTree = "<group>"; };
-		BABD6EF718AA7C3300447E6C /* RHRefreshControlViewSequenceImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHRefreshControlViewSequenceImages.m; sourceTree = "<group>"; };
 		BAE261B1189BDF3E00211B3D /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE261B4189BDF3E00211B3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BAE261B6189BDF3E00211B3D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,13 +72,6 @@
 		BAE261DD189BDF3E00211B3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BAE261DF189BDF3E00211B3D /* ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleTests.m; sourceTree = "<group>"; };
 		BAE261EB189BDFA500211B3D /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
-		BAE5DFBF189DF82C00375468 /* RHAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHAnimator.h; sourceTree = "<group>"; };
-		BAE5DFC0189DF82C00375468 /* RHAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHAnimator.m; sourceTree = "<group>"; };
-		BAE5DFC3189DFC3900375468 /* RHRefreshControlConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHRefreshControlConfiguration.h; sourceTree = "<group>"; };
-		BAE5DFC4189DFC3900375468 /* RHRefreshControlConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHRefreshControlConfiguration.m; sourceTree = "<group>"; };
-		BAE5DFC6189E0ADA00375468 /* RHRefreshControlView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHRefreshControlView.h; sourceTree = "<group>"; };
-		BAF9246A189C877300A4A1EE /* RHRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHRefreshControl.h; sourceTree = "<group>"; };
-		BAF9246B189C877300A4A1EE /* RHRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHRefreshControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,15 +98,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BA35E891189E112C00CEFE93 /* RHRefreshControlViewPinterest */ = {
+		BA73C9AF18C201D800C811CD /* RHRefreshControl */ = {
 			isa = PBXGroup;
 			children = (
-				BA35E892189E11BC00CEFE93 /* RHRefreshControlViewPinterest.h */,
-				BA35E893189E11BC00CEFE93 /* RHRefreshControlViewPinterest.m */,
-				BABD6EF618AA7C3300447E6C /* RHRefreshControlViewSequenceImages.h */,
-				BABD6EF718AA7C3300447E6C /* RHRefreshControlViewSequenceImages.m */,
+				BA73C9B018C201D800C811CD /* RHAnimator.h */,
+				BA73C9B118C201D800C811CD /* RHAnimator.m */,
+				BA73C9B218C201D800C811CD /* RHRefreshControl.h */,
+				BA73C9B318C201D800C811CD /* RHRefreshControl.m */,
+				BA73C9B418C201D800C811CD /* RHRefreshControlConfiguration.h */,
+				BA73C9B518C201D800C811CD /* RHRefreshControlConfiguration.m */,
+				BA73C9B618C201D800C811CD /* RHRefreshControlView.h */,
+				BA73C9B718C201D800C811CD /* RHRefreshControlViewStyle */,
 			);
-			name = RHRefreshControlViewPinterest;
+			name = RHRefreshControl;
+			path = ../../PodSource/RHRefreshControl;
+			sourceTree = "<group>";
+		};
+		BA73C9B718C201D800C811CD /* RHRefreshControlViewStyle */ = {
+			isa = PBXGroup;
+			children = (
+				BA73C9B818C201D800C811CD /* RHRefreshControlViewPinterest.h */,
+				BA73C9B918C201D800C811CD /* RHRefreshControlViewPinterest.m */,
+				BA73C9BA18C201D800C811CD /* RHRefreshControlViewSequenceImages.h */,
+				BA73C9BB18C201D800C811CD /* RHRefreshControlViewSequenceImages.m */,
+			);
 			path = RHRefreshControlViewStyle;
 			sourceTree = "<group>";
 		};
@@ -152,6 +167,7 @@
 		BAE261BA189BDF3E00211B3D /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				BA73C9AF18C201D800C811CD /* RHRefreshControl */,
 				BABACD66189FE1EF0062BFC0 /* CustomView */,
 				BAE261C3189BDF3E00211B3D /* AppDelegate.h */,
 				BAE261C9189BDF3E00211B3D /* ViewController.h */,
@@ -159,7 +175,6 @@
 				BAE261CA189BDF3E00211B3D /* ViewController.m */,
 				BAE261CC189BDF3E00211B3D /* Images.xcassets */,
 				BAE261EB189BDFA500211B3D /* ViewController.xib */,
-				BAE261EA189BDF8B00211B3D /* RHRefreshControl */,
 				BAE261BB189BDF3E00211B3D /* Supporting Files */,
 			);
 			path = Example;
@@ -192,21 +207,6 @@
 				BAE261DC189BDF3E00211B3D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		BAE261EA189BDF8B00211B3D /* RHRefreshControl */ = {
-			isa = PBXGroup;
-			children = (
-				BA35E891189E112C00CEFE93 /* RHRefreshControlViewPinterest */,
-				BAE5DFBF189DF82C00375468 /* RHAnimator.h */,
-				BAE5DFC0189DF82C00375468 /* RHAnimator.m */,
-				BAF9246A189C877300A4A1EE /* RHRefreshControl.h */,
-				BAF9246B189C877300A4A1EE /* RHRefreshControl.m */,
-				BAE5DFC3189DFC3900375468 /* RHRefreshControlConfiguration.h */,
-				BAE5DFC4189DFC3900375468 /* RHRefreshControlConfiguration.m */,
-				BAE5DFC6189E0ADA00375468 /* RHRefreshControlView.h */,
-			);
-			path = RHRefreshControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,15 +306,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAE5DFC5189DFC3900375468 /* RHRefreshControlConfiguration.m in Sources */,
+				BA73C9BE18C201D800C811CD /* RHRefreshControlConfiguration.m in Sources */,
 				BAE261CB189BDF3E00211B3D /* ViewController.m in Sources */,
+				BA73C9BD18C201D800C811CD /* RHRefreshControl.m in Sources */,
 				BAE261C5189BDF3E00211B3D /* AppDelegate.m in Sources */,
-				BAE5DFC1189DF82C00375468 /* RHAnimator.m in Sources */,
-				BA35E894189E11BC00CEFE93 /* RHRefreshControlViewPinterest.m in Sources */,
-				BABD6EF818AA7C3300447E6C /* RHRefreshControlViewSequenceImages.m in Sources */,
 				BAE261C1189BDF3E00211B3D /* main.m in Sources */,
-				BAF9246C189C877300A4A1EE /* RHRefreshControl.m in Sources */,
+				BA73C9C018C201D800C811CD /* RHRefreshControlViewSequenceImages.m in Sources */,
+				BA73C9BF18C201D800C811CD /* RHRefreshControlViewPinterest.m in Sources */,
 				BABACD69189FE2120062BFC0 /* CutomRefreshView.m in Sources */,
+				BA73C9BC18C201D800C811CD /* RHAnimator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

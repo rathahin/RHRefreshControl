@@ -57,7 +57,7 @@
 
 - (UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
   UITableViewCell *cell = [self.tableView dequeueReusableCellWithIdentifier:@"Cell"];
-  cell.textLabel.text = @"MOCHA";
+  cell.textLabel.text = @"COSTA";
   return cell;
 }
 

@@ -60,13 +60,13 @@ static const NSUInteger KeyframeCount = 60;
 }
 
 // Modeled after the damped sine wave y = sin(13pi/2*x)*pow(2, 10 * (x - 1))
-CGFloat ElasticEaseIn(CGFloat p)
+CGFloat RHElasticEaseIn(CGFloat p)
 {
 	return sin(13 * M_PI_2 * p) * pow(2, 10 * (p - 1));
 }
 
 // Modeled after the damped sine wave y = sin(-13pi/2*(x + 1))*pow(2, -10x) + 1
-CGFloat ElasticEaseOut(CGFloat p)
+CGFloat RHElasticEaseOut(CGFloat p)
 {
 	return sin(-13 * M_PI_2 * (p + 1)) * pow(2, -10 * p) + 1;
 }
@@ -74,7 +74,7 @@ CGFloat ElasticEaseOut(CGFloat p)
 // Modeled after the piecewise exponentially-damped sine wave:
 // y = (1/2)*sin(13pi/2*(2*x))*pow(2, 10 * ((2*x) - 1))      ; [0,0.5)
 // y = (1/2)*(sin(-13pi/2*((2x-1)+1))*pow(2,-10(2*x-1)) + 2) ; [0.5, 1]
-CGFloat ElasticEaseInOut(CGFloat p)
+CGFloat RHElasticEaseInOut(CGFloat p)
 {
 	if(p < 0.5)
 	{
@@ -87,13 +87,13 @@ CGFloat ElasticEaseInOut(CGFloat p)
 }
 
 // Modeled after the overshooting cubic y = x^3-x*sin(x*pi)
-CGFloat BackEaseIn(CGFloat p)
+CGFloat RHBackEaseIn(CGFloat p)
 {
 	return p * p * p - p * sin(p * M_PI);
 }
 
 // Modeled after overshooting cubic y = 1-((1-x)^3-(1-x)*sin((1-x)*pi))
-CGFloat BackEaseOut(CGFloat p)
+CGFloat RHBackEaseOut(CGFloat p)
 {
 	CGFloat f = (1 - p);
 	return 1 - (f * f * f - f * sin(f * M_PI));
