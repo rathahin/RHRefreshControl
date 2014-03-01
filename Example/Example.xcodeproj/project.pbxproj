@@ -12,6 +12,8 @@
 		BA73C9BE18C201D800C811CD /* RHRefreshControlConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = BA73C9B518C201D800C811CD /* RHRefreshControlConfiguration.m */; };
 		BA73C9BF18C201D800C811CD /* RHRefreshControlViewPinterest.m in Sources */ = {isa = PBXBuildFile; fileRef = BA73C9B918C201D800C811CD /* RHRefreshControlViewPinterest.m */; };
 		BA73C9C018C201D800C811CD /* RHRefreshControlViewSequenceImages.m in Sources */ = {isa = PBXBuildFile; fileRef = BA73C9BB18C201D800C811CD /* RHRefreshControlViewSequenceImages.m */; };
+		BA9DF90718C21E7600B74585 /* pinterest_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = BA9DF90518C21E7600B74585 /* pinterest_pin.png */; };
+		BA9DF90818C21E7600B74585 /* pinterest_pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA9DF90618C21E7600B74585 /* pinterest_pin@2x.png */; };
 		BABACD69189FE2120062BFC0 /* CutomRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = BABACD68189FE2120062BFC0 /* CutomRefreshView.m */; };
 		BAE261B5189BDF3E00211B3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE261B4189BDF3E00211B3D /* Foundation.framework */; };
 		BAE261B7189BDF3E00211B3D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE261B6189BDF3E00211B3D /* CoreGraphics.framework */; };
@@ -51,6 +53,8 @@
 		BA73C9B918C201D800C811CD /* RHRefreshControlViewPinterest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHRefreshControlViewPinterest.m; sourceTree = "<group>"; };
 		BA73C9BA18C201D800C811CD /* RHRefreshControlViewSequenceImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHRefreshControlViewSequenceImages.h; sourceTree = "<group>"; };
 		BA73C9BB18C201D800C811CD /* RHRefreshControlViewSequenceImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHRefreshControlViewSequenceImages.m; sourceTree = "<group>"; };
+		BA9DF90518C21E7600B74585 /* pinterest_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinterest_pin.png; sourceTree = "<group>"; };
+		BA9DF90618C21E7600B74585 /* pinterest_pin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pinterest_pin@2x.png"; sourceTree = "<group>"; };
 		BABACD67189FE2120062BFC0 /* CutomRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CutomRefreshView.h; sourceTree = "<group>"; };
 		BABACD68189FE2120062BFC0 /* CutomRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CutomRefreshView.m; sourceTree = "<group>"; };
 		BAE261B1189BDF3E00211B3D /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +129,16 @@
 			path = RHRefreshControlViewStyle;
 			sourceTree = "<group>";
 		};
+		BA9DF90418C21E7600B74585 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BA9DF90518C21E7600B74585 /* pinterest_pin.png */,
+				BA9DF90618C21E7600B74585 /* pinterest_pin@2x.png */,
+			);
+			name = Resources;
+			path = ../../Resources;
+			sourceTree = "<group>";
+		};
 		BABACD66189FE1EF0062BFC0 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +197,7 @@
 		BAE261BB189BDF3E00211B3D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BA9DF90418C21E7600B74585 /* Resources */,
 				BAE261BC189BDF3E00211B3D /* Example-Info.plist */,
 				BAE261BD189BDF3E00211B3D /* InfoPlist.strings */,
 				BAE261C0189BDF3E00211B3D /* main.m */,
@@ -285,9 +300,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA9DF90718C21E7600B74585 /* pinterest_pin.png in Resources */,
 				BAE261CD189BDF3E00211B3D /* Images.xcassets in Resources */,
 				BAE261EC189BDFA500211B3D /* ViewController.xib in Resources */,
 				BAE261BF189BDF3E00211B3D /* InfoPlist.strings in Resources */,
+				BA9DF90818C21E7600B74585 /* pinterest_pin@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
