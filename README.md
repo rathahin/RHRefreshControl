@@ -53,7 +53,7 @@ refreshConfiguration.refreshView = customRefreshView;
 
 ## Custom Refresh View
 
-* Please check [tutorial]http://nsdesigner.mobi/2014/03/10/rhrefreshcontrol.html
+* Please check [tutorial](http://nsdesigner.mobi/2014/03/10/rhrefreshcontrol.html).
 
 ## Special Thanks
 
