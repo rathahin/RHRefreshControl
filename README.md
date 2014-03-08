@@ -8,14 +8,18 @@ RHRefreshControl is just another simple custom RefreshControl which allow you to
 
 ## Getting Started
 
-* Download Library
 * Install with Cocoapods
+
+```
+platform :ios, "6.0"
+
+pod 'RHRefreshControl'
+
+```
 
 ## Classes Reference
 
-* *RHRefreshControl*
-* *RHRefreshConfiguration*
-* *RHRefreshView Protocol*
+* Documentation will provice in the future
 
 ## Initiate
 
