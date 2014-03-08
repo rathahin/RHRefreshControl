@@ -57,7 +57,7 @@ refreshConfiguration.refreshView = customRefreshView;
 
 ## Special Thanks
 
-* // TODO
+* I would like to thank [Erik S](https://github.com/eriksundin) for giving me alot ideas and development tips.
 
 ## License
 
