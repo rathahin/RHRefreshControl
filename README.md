@@ -66,3 +66,6 @@ refreshConfiguration.refreshView = customRefreshView;
 ## License
 
 See [LICENSE](https://github.com/rathahin/RHRefreshControl/blob/master/LICENSE).
+
+## Todo
+* Supporting UIScrollView

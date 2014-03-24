@@ -25,9 +25,9 @@
 - (id)initWithConfiguration:(RHRefreshControlConfiguration *)configuration {
   self = [super init];
   if (self) {
-    self.minimumForStart = [configuration.minimumForStart floatValue];
-    self.maximumForPull = [configuration.maximumForPull floatValue];
-    self.refreshView = configuration.refreshView;
+    _minimumForStart = [configuration.minimumForStart floatValue];
+    _maximumForPull = [configuration.maximumForPull floatValue];
+    _refreshView = configuration.refreshView;
   }
   
   return self;
